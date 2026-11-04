@@ -1,0 +1,30 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+.ipynb_checkpoints/
+
+# Virtual environments
+.venv
+
+# Local inputs, generated results, and credentials
+data/
+output/*
+.env
+
+# Submission excludes the supplied materials and local database setup
+assignment/
+tests/
+compose.yaml
+docs/
+sql/schema.sql
+sql/seed.sql
+
+# Keep only the synthetic prompt artifacts referenced by the answer PDF
+!output/dspy_pd/
+output/dspy_pd/*
+!output/dspy_pd/dspy_result.json
+!output/dspy_pd/part_2_2_prompt_draft.md
